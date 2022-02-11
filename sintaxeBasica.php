@@ -40,7 +40,7 @@ $nome = 'adinha';
 $sobrenome = 'silva';
 
 $nomeCompleto = $nome;
-$nomeCompleto .= $sobrenome; // . + - * /
+$nomeCompleto .=  $sobrenome; // . + - * /
 echo $nomeCompleto ."</br>";
 
 
@@ -77,6 +77,11 @@ if($menorIdade) {
 } else {
     echo 'maior'."</br>";
 }
+
+//isset
+$nomeCompleto .= isset($sobrenome) ? $sobrenome : '';
+//null cao
+$nomeCompleto .=  $sobrenome ?? '';
 
 ?>
 </body>
