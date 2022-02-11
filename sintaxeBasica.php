@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>testing</title>
+    </head>
+    <body>
 <?php 
 echo 'hola' ."</br>";
 
@@ -72,7 +78,9 @@ if($menorIdade) {
     echo 'maior'."</br>";
 }
 
-
+?>
+</body>
+</html>
 
 
 
