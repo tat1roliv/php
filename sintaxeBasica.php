@@ -103,6 +103,23 @@ switch($tipo){
     
 };
 
+
+//while
+$numero = 0;
+
+while($numero <  10){
+    echo 'n: ' . $numero . '</br>';
+    $numero++;
+}
+
+
+//for
+for ($i=0; $i<10 ;$i++){
+   echo $i . '</br>';
+}
+
+
+
 ?>
 </body>
 </html>
