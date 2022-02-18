@@ -83,6 +83,26 @@ $nomeCompleto .= isset($sobrenome) ? $sobrenome : '';
 //null cao
 $nomeCompleto .=  $sobrenome ?? '';
 
+
+
+//switch
+$tipo = 'foto';
+
+switch($tipo){
+    case 'foto':
+        echo 'exibe foto';
+        break;
+
+    case 'texto':
+        echo 'exibe texto';
+        break;
+
+    case 'video':
+        echo 'exibe video';
+        break;
+    
+};
+
 ?>
 </body>
 </html>
