@@ -120,6 +120,18 @@ for ($i=0; $i<10 ;$i++){
 
 
 
+//foreach
+$listaForeach = [ 'a', 'b', 'c', 'd', 'e', 'f'];
+
+echo '<h2>lista</h2>';
+echo '<ul>';
+
+foreach($listaForeach as $chave => $elemento){
+    echo '<li>'. 'item: ' . ($chave + 1)  . ': '. $elemento . '</br>' .'</li>';
+} 
+echo '</ul>';
+
+
 ?>
 </body>
 </html>
