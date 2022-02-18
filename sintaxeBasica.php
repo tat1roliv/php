@@ -132,6 +132,18 @@ foreach($listaForeach as $chave => $elemento){
 echo '</ul>';
 
 
+//ex
+$contadorGeral = 0;
+while ($contadorGeral < 20){
+    for ($a = 0;$a<=$contadorGeral;$a++){
+        echo "-";
+    }
+    echo "<br/>";
+    $a = 0;
+    $contadorGeral++;
+}
+
+
 ?>
 </body>
 </html>
