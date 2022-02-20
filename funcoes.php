@@ -77,7 +77,7 @@ echo 'total:' . $somaParamsEdit . '</br>' ;
 
 //funcao anonima
 $percentual = function(int $valor){
-    return $valor * 0.1 . '</br>';
+    return $valor * 0.25 . '</br>';
 };
 
 echo $percentual(90);
@@ -93,8 +93,9 @@ echo $desconto (80);
 
 
 //arrow function
+$percentualDezPorCento = fn(int $valor) => $valor * 0.1 . '</br>';
 
-
+echo $percentualDezPorCento(99);
 
 
 
