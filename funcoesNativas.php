@@ -1,0 +1,3 @@
+<?php 
+
+//funcoes nativas

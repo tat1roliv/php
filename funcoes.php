@@ -103,6 +103,24 @@ echo $percentualDezPorCento(99);
 
 
 
+//recursividade
+function dividir($numero){
+    $metade = $numero/2;
+    echo $metade . '</br>';
+    
+    if(round($metade) > 0){
+        dividir($metade);
+    }
+    return $metade;
+}
+
+dividir(100);
+
+
+
+
+
+
 
 
 //funcoes nativas
