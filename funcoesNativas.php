@@ -144,6 +144,37 @@ echo'</br>';
 
 
 
+//array_pop
+array_pop($numerales);//remove ultimo item
+print_r($numerales);
+
+
+
+
+//array_shift
+array_pop($numerales);//remove primeiro item
+print_r($numerales);
+
+
+
+//in_array
+if(in_array(90, $numerales)){ 
+    echo 'contem'. '</br>';
+} else {
+    echo 'nao contem'. '</br>';
+}
+
+
+//array_search
+$position = array_search(50, $numerales);
+echo $position . '</br>';
+
+
+
+
+
+
+
 
 
 
