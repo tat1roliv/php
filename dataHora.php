@@ -21,4 +21,32 @@ echo date('d/m/Y', $time);
 
 
 
-
+//ex
+function weekDay($date) {
+    $day = date('l', strtotime($date));
+    switch($day) {
+        case 'Sunday':
+            return 'Domingo';
+            break;
+        case 'Monday':
+            return 'Segunda-Feira';
+            break;
+        case 'Tuesday':
+            return 'Terça-Feira';
+            break;
+        case 'Wednesday':
+            return 'Quarta-Feira';
+            break;
+        case 'Thursday':
+            return 'Quinta-Feira';
+            break;
+        case 'Friday':
+            return 'Sexta-Feira';
+            break;
+        case 'Saturday':
+            return 'Sábado';
+            break;
+    }
+}
+$date = '2022-01-17';
+echo weekDay($date);
