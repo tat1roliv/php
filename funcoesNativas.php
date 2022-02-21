@@ -95,11 +95,17 @@ $nomes = explode(' ', $nomeCompleto);
 print_r($nomes);
 
 
+//implode
+$nomeArray = ['ada', 'maria', 'silva'];
+
+$nomeString = implode(' ', $nomeArray);
+echo $nomeString . '</br>';
+
+
 //nums
 $numberF = 126548.78954;
 
 echo '</br>'. 'R$' . number_format($numberF, 2, ','). '</br>';
-
 
 
 
@@ -147,6 +153,7 @@ echo'</br>';
 //array_pop
 array_pop($numerales);//remove ultimo item
 print_r($numerales);
+echo'</br>';
 
 
 
@@ -154,11 +161,11 @@ print_r($numerales);
 //array_shift
 array_pop($numerales);//remove primeiro item
 print_r($numerales);
-
+echo'</br>';
 
 
 //in_array
-if(in_array(90, $numerales)){ 
+if(in_array(40, $numerales)){ 
     echo 'contem'. '</br>';
 } else {
     echo 'nao contem'. '</br>';
@@ -166,13 +173,17 @@ if(in_array(90, $numerales)){
 
 
 //array_search
-$position = array_search(50, $numerales);
-echo $position . '</br>';
+$position = array_search(40, $numerales);
+echo 'posicao: '. $position . '</br>';
 
 
 
+//asort asrsort (reverse)
+asort($numerales);
+echo 'chave: '. $numerales[3]. '</br>';
 
-
+print_r($numerales);
+echo'</br>';
 
 
 
