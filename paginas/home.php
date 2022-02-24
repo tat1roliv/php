@@ -1,4 +1,5 @@
 <?php
 require('../template/header.php');
 ?>
-<p>teste</p>
+
+<h1>pagina de teste</h1>
